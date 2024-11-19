@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\dbtechstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\dbtechstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\models\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\models\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|c:\\users\\truong quang loc\\source\\repos\\project_techstore\\project_techstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3496B5A6-EF0D-4022-8399-3534E0412635}|Project_TechStore\\Project_TechStore.csproj|solutionrelative:project_techstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Product.cs*",
+              "RelativeToolTip": "Project_TechStore\\Models\\Product.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:12:56.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Project_TechStore\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:06:35.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Project_TechStore\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:12:34.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Voucher.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Voucher.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\Voucher.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Voucher.cs",
+              "RelativeToolTip": "Project_TechStore\\Models\\Voucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:59:12.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBTechStoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\DBTechStoreContext.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\DBTechStoreContext.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\DBTechStoreContext.cs",
+              "RelativeToolTip": "Project_TechStore\\Models\\DBTechStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:02:03.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Customer.cs",
+              "RelativeToolTip": "Project_TechStore\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:01:50.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Category.cs",
+              "RelativeToolTip": "Project_TechStore\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:59:55.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\Cart.cs",
+              "RelativeToolTip": "Project_TechStore\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:59:14.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Global.asax.cs",
+              "RelativeToolTip": "Project_TechStore\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:11:12.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Project_TechStore\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Views\\Web.config",
+              "RelativeToolTip": "Project_TechStore\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-19T19:11:42.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Project_TechStore\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:11:56.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Project_TechStore\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:12:05.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project_TechStore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:10:37.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_TechStore\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Project_TechStore\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T19:10:27.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Project_TechStore\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:09:35.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Web.config",
+              "RelativeDocumentMoniker": "Project_TechStore\\Web.config",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Web.config",
+              "RelativeToolTip": "Project_TechStore\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-19T19:04:42.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\CartDetail.cs",
+              "RelativeDocumentMoniker": "Project_TechStore\\Models\\CartDetail.cs",
+              "ToolTip": "C:\\Users\\Truong Quang Loc\\source\\repos\\Project_TechStore\\Project_TechStore\\Models\\CartDetail.cs",
+              "RelativeToolTip": "Project_TechStore\\Models\\CartDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:59:56.529Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
