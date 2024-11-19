@@ -1,0 +1,8 @@
+cd WebStore
+echo ".vs/
+bin/
+obj/
+packages/
+*.user
+*.suo
+*.vsidx" > .gitignore
