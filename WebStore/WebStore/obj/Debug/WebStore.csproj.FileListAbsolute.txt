@@ -312,3 +312,7 @@ D:\Project lm thue\ProjectForHublift\ProjectForHublift\WebStore\WebStore\obj\Deb
 D:\Project lm thue\ProjectForHublift\ProjectForHublift\WebStore\WebStore\obj\Debug\WebStore.csproj.CopyComplete
 D:\Project lm thue\ProjectForHublift\ProjectForHublift\WebStore\WebStore\obj\Debug\WebStore.dll
 D:\Project lm thue\ProjectForHublift\ProjectForHublift\WebStore\WebStore\obj\Debug\WebStore.pdb
+D:\Project lm thue\ProjectForHublift\ProjectForHublift\WebStore\WebStore\bin\EntityFramework.dll
+D:\Project lm thue\ProjectForHublift\ProjectForHublift\WebStore\WebStore\bin\EntityFramework.SqlServer.dll
+D:\Project lm thue\ProjectForHublift\ProjectForHublift\WebStore\WebStore\bin\EntityFramework.xml
+D:\Project lm thue\ProjectForHublift\ProjectForHublift\WebStore\WebStore\bin\EntityFramework.SqlServer.xml
