@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -20,59 +19,41 @@ namespace WebStore.Models
         {
         }
 
-        public virtual DbSet<AdminUser> AdminUser { get; set; }
         public virtual DbSet<Cart> Cart { get; set; }
         public virtual DbSet<CartDetail> CartDetail { get; set; }
         public virtual DbSet<Category> Category { get; set; }
-        public virtual DbSet<Comment> Comment { get; set; }
-        public virtual DbSet<Customer> Customer { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetail { get; set; }
         public virtual DbSet<OrderItem> OrderItem { get; set; }
         public virtual DbSet<Product> Product { get; set; }
+        public virtual DbSet<User> User { get; set; }
         public virtual DbSet<Voucher> Voucher { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
-
-                optionsBuilder.UseSqlServer(connectionString);
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer("Server=localhost;Database=Store;Integrated Security=True;TrustServerCertificate=true");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<AdminUser>(entity =>
-            {
-                entity.HasKey(e => e.AdminId)
-                    .HasName("PK__AdminUse__719FE4E8978C9ACD");
-
-                entity.Property(e => e.AdminId).HasColumnName("AdminID");
-
-                entity.Property(e => e.AdName).HasMaxLength(50);
-
-                entity.Property(e => e.PasswordUser)
-                    .HasMaxLength(50)
-                    .IsFixedLength();
-
-                entity.Property(e => e.RoleUser).HasMaxLength(50);
-            });
-
             modelBuilder.Entity<Cart>(entity =>
             {
                 entity.Property(e => e.CartId)
                     .HasColumnName("CartID")
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
-
                 entity.Property(e => e.TotalPayment).HasColumnType("decimal(10, 2)");
 
-                entity.HasOne(d => d.Customer)
+                entity.Property(e => e.UserId).HasColumnName("UserID");
+
+                entity.HasOne(d => d.User)
                     .WithMany(p => p.Cart)
-                    .HasForeignKey(d => d.CustomerId)
+                    .HasForeignKey(d => d.UserId)
                     .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK__Cart__CustomerID__300424B4");
+                    .HasConstraintName("FK__Cart__UserID__2E1BDC42");
             });
 
             modelBuilder.Entity<CartDetail>(entity =>
@@ -103,13 +84,13 @@ namespace WebStore.Models
                     .WithMany(p => p.CartDetail)
                     .HasForeignKey(d => d.CartId)
                     .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK__CartDetai__CartI__3C69FB99");
+                    .HasConstraintName("FK__CartDetai__CartI__36B12243");
 
                 entity.HasOne(d => d.Product)
                     .WithMany(p => p.CartDetail)
                     .HasForeignKey(d => d.ProductId)
                     .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK__CartDetai__Produ__3B75D760");
+                    .HasConstraintName("FK__CartDetai__Produ__35BCFE0A");
             });
 
             modelBuilder.Entity<Category>(entity =>
@@ -124,58 +105,59 @@ namespace WebStore.Models
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Comment>(entity =>
+            modelBuilder.Entity<OrderDetail>(entity =>
             {
-                entity.Property(e => e.CommentId)
-                    .HasColumnName("CommentID")
+                entity.Property(e => e.OrderDetailId)
+                    .HasColumnName("OrderDetailID")
                     .ValueGeneratedNever();
-
-                entity.Property(e => e.CommentContent).HasColumnType("text");
-
-                entity.Property(e => e.CommentDate)
-                    .HasColumnType("datetime")
-                    .HasDefaultValueSql("(getdate())");
 
                 entity.Property(e => e.OrderId).HasColumnName("OrderID");
 
+                entity.Property(e => e.ProductId).HasColumnName("ProductID");
+
+                entity.Property(e => e.ProductType)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Quantity).HasDefaultValueSql("((1))");
+
+                entity.Property(e => e.TotalAmount).HasColumnType("decimal(10, 2)");
+
+                entity.Property(e => e.UnitPrice).HasColumnType("decimal(10, 2)");
+
+                entity.Property(e => e.VoucherId).HasColumnName("VoucherID");
+
                 entity.HasOne(d => d.Order)
-                    .WithMany(p => p.Comment)
+                    .WithMany(p => p.OrderDetail)
                     .HasForeignKey(d => d.OrderId)
                     .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK__Comment__OrderID__37A5467C");
-            });
+                    .HasConstraintName("FK__OrderDeta__Order__3B75D760");
 
-            modelBuilder.Entity<Customer>(entity =>
-            {
-                entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
+                entity.HasOne(d => d.Product)
+                    .WithMany(p => p.OrderDetail)
+                    .HasForeignKey(d => d.ProductId)
+                    .OnDelete(DeleteBehavior.Cascade)
+                    .HasConstraintName("FK__OrderDeta__Produ__3A81B327");
 
-                entity.Property(e => e.Address).HasColumnType("text");
-
-                entity.Property(e => e.Email).HasMaxLength(100);
-
-                entity.Property(e => e.FullName)
-                    .HasMaxLength(100)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.PasswordHash)
-                    .HasMaxLength(255)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.PhoneNumber).HasMaxLength(15);
-
-                entity.Property(e => e.Username).HasMaxLength(50);
+                entity.HasOne(d => d.Voucher)
+                    .WithMany(p => p.OrderDetail)
+                    .HasForeignKey(d => d.VoucherId)
+                    .OnDelete(DeleteBehavior.SetNull)
+                    .HasConstraintName("FK__OrderDeta__Vouch__3C69FB99");
             });
 
             modelBuilder.Entity<OrderItem>(entity =>
             {
                 entity.HasKey(e => e.OrderId)
-                    .HasName("PK__OrderIte__C3905BAF994C14EE");
+                    .HasName("PK__OrderIte__C3905BAFEA4BE0A8");
 
                 entity.Property(e => e.OrderId)
                     .HasColumnName("OrderID")
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
+                entity.Property(e => e.CreatedDate)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("(getdate())");
 
                 entity.Property(e => e.GrandTotal).HasColumnType("decimal(10, 2)");
 
@@ -187,19 +169,21 @@ namespace WebStore.Models
 
                 entity.Property(e => e.TotalAmount).HasColumnType("decimal(10, 2)");
 
+                entity.Property(e => e.UserId).HasColumnName("UserID");
+
                 entity.Property(e => e.VoucherId).HasColumnName("VoucherID");
 
-                entity.HasOne(d => d.Customer)
+                entity.HasOne(d => d.User)
                     .WithMany(p => p.OrderItem)
-                    .HasForeignKey(d => d.CustomerId)
+                    .HasForeignKey(d => d.UserId)
                     .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK__OrderItem__Custo__32E0915F");
+                    .HasConstraintName("FK__OrderItem__UserI__30F848ED");
 
                 entity.HasOne(d => d.Voucher)
                     .WithMany(p => p.OrderItem)
                     .HasForeignKey(d => d.VoucherId)
                     .OnDelete(DeleteBehavior.SetNull)
-                    .HasConstraintName("FK__OrderItem__Vouch__33D4B598");
+                    .HasConstraintName("FK__OrderItem__Vouch__31EC6D26");
             });
 
             modelBuilder.Entity<Product>(entity =>
@@ -212,9 +196,11 @@ namespace WebStore.Models
 
                 entity.Property(e => e.CommentListId).HasColumnName("CommentListID");
 
-                entity.Property(e => e.Description).HasColumnType("text");
+                entity.Property(e => e.CreatedDate)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("(getdate())");
 
-                entity.Property(e => e.ImageList).HasMaxLength(50);
+                entity.Property(e => e.Description).HasColumnType("text");
 
                 entity.Property(e => e.IsFavorite).HasDefaultValueSql("((0))");
 
@@ -237,7 +223,30 @@ namespace WebStore.Models
                     .WithMany(p => p.Product)
                     .HasForeignKey(d => d.CategoryId)
                     .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK__Product__Categor__2D27B809");
+                    .HasConstraintName("FK__Product__Categor__2B3F6F97");
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.Property(e => e.UserId).HasColumnName("UserID");
+
+                entity.Property(e => e.Address).HasColumnType("text");
+
+                entity.Property(e => e.Email).HasMaxLength(100);
+
+                entity.Property(e => e.FullName)
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.PasswordHash)
+                    .HasMaxLength(255)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.PhoneNumber).HasMaxLength(15);
+
+                entity.Property(e => e.Role).HasMaxLength(50);
+
+                entity.Property(e => e.Username).HasMaxLength(50);
             });
 
             modelBuilder.Entity<Voucher>(entity =>

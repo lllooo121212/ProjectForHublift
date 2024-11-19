@@ -12,6 +12,7 @@ namespace WebStore.Models
         public Product()
         {
             CartDetail = new HashSet<CartDetail>();
+            OrderDetail = new HashSet<OrderDetail>();
         }
 
         public int ProductId { get; set; }
@@ -25,8 +26,10 @@ namespace WebStore.Models
         public string ImageList { get; set; }
         public int? CommentListId { get; set; }
         public int? CategoryId { get; set; }
+        public DateTime? CreatedDate { get; set; }
 
         public virtual Category Category { get; set; }
         public virtual ICollection<CartDetail> CartDetail { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetail { get; set; }
     }
 }

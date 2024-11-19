@@ -11,6 +11,7 @@ namespace WebStore.Models
     {
         public Voucher()
         {
+            OrderDetail = new HashSet<OrderDetail>();
             OrderItem = new HashSet<OrderItem>();
         }
 
@@ -19,6 +20,7 @@ namespace WebStore.Models
         public decimal? MaxDiscountValue { get; set; }
         public DateTime? ExpiryDate { get; set; }
 
+        public virtual ICollection<OrderDetail> OrderDetail { get; set; }
         public virtual ICollection<OrderItem> OrderItem { get; set; }
     }
 }

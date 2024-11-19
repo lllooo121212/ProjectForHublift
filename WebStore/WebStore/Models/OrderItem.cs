@@ -11,20 +11,21 @@ namespace WebStore.Models
     {
         public OrderItem()
         {
-            Comment = new HashSet<Comment>();
+            OrderDetail = new HashSet<OrderDetail>();
         }
 
         public int OrderId { get; set; }
-        public int? CustomerId { get; set; }
+        public int? UserId { get; set; }
         public string MessageForSeller { get; set; }
         public string ShippingAddress { get; set; }
         public int? VoucherId { get; set; }
         public decimal? TotalAmount { get; set; }
         public decimal? ShippingFee { get; set; }
         public decimal? GrandTotal { get; set; }
+        public DateTime? CreatedDate { get; set; }
 
-        public virtual Customer Customer { get; set; }
+        public virtual User User { get; set; }
         public virtual Voucher Voucher { get; set; }
-        public virtual ICollection<Comment> Comment { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetail { get; set; }
     }
 }

@@ -15,11 +15,11 @@ namespace WebStore.Models
         }
 
         public int CartId { get; set; }
-        public int? CustomerId { get; set; }
+        public int? UserId { get; set; }
         public decimal? TotalPayment { get; set; }
         public int? SelectedProductCount { get; set; }
 
-        public virtual Customer Customer { get; set; }
+        public virtual User User { get; set; }
         public virtual ICollection<CartDetail> CartDetail { get; set; }
     }
 }
